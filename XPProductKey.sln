@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPProductKey.Library", "XPProductKey.Library\XPProductKey.Library.csproj", "{6957808A-4F6A-417B-B161-65FA8D5F6CC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPProductKey.Editor", "XPProductKey.Editor\XPProductKey.Editor.csproj", "{FE1217E3-9F59-48B7-992D-F84DF2EF9CF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6957808A-4F6A-417B-B161-65FA8D5F6CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6957808A-4F6A-417B-B161-65FA8D5F6CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6957808A-4F6A-417B-B161-65FA8D5F6CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6957808A-4F6A-417B-B161-65FA8D5F6CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE1217E3-9F59-48B7-992D-F84DF2EF9CF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE1217E3-9F59-48B7-992D-F84DF2EF9CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE1217E3-9F59-48B7-992D-F84DF2EF9CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE1217E3-9F59-48B7-992D-F84DF2EF9CF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

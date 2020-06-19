@@ -1,0 +1,22 @@
+﻿<Window x:Class="XPProductKey.Editor.WindowMain"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Windows XP Product Key Editor" Height="100" Width="600" Background="LightGray" ResizeMode="CanMinimize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="0" Grid.Row="0" TextAlignment="Left" HorizontalAlignment="Stretch" VerticalAlignment="Center" Text="Current Product Key:" Margin="5"/>
+        <TextBox Grid.Column="1" Grid.Row="0" TextAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" x:Name="TextBoxCurrentKey" Margin="5" IsEnabled="False" AcceptsReturn="False"/>
+    
+        <TextBlock Grid.Column="0" Grid.Row="1" TextAlignment="Left" HorizontalAlignment="Stretch" VerticalAlignment="Center" Text="New Product Key:" Margin="5"/>
+        <TextBox Grid.Column="1" Grid.Row="1" TextAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" x:Name="TextBoxNewKey" Margin="5" AcceptsReturn="False"/>
+        <Button Grid.Column="2" Grid.Row="1" Content="Write To Registry" Margin="5" x:Name="ButtonWriteToRegistry" Click="ButtonWriteToRegistry_Click"/>
+    </Grid>
+</Window>
